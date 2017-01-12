@@ -1,0 +1,21 @@
+<p>Variables hard-coding should be avoided.</p>
+<h2>Noncompliant Solution</h2>
+<pre>
+  String uname = "steve";
+  int count = 10;
+  private static final String BACK_SLASH = "\\";
+  static char[] ebcdicToAscii = {/* 0- */0x00, 0x01, 0x02, 0x03, ' ', 0x09, ' ', 0x7F, ' ', ' ', ' ', 0x0B}
+  private boolean QStateNew_screenEdit2000 = false;
+  private final int CHECKCOMPANY2040 = 3;
+  public long cnt = 10l;
+  public double temoCount =10d;
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+  public static final ConstantCategory ALPHABETIC = ConstantCategory.ALPHABETIC;
+  public static final FieldType COMMON = FieldType.COMMON;
+  public static final Constant HIVALUE = ConstantHIVAL.getInstance();
+  for(int i=0;)
+  String str = null;
+</pre>
+

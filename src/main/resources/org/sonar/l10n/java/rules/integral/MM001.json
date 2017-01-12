@@ -1,0 +1,14 @@
+{
+  "title": "Variables should not be hard-coded",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+"tags": [
+    "bad-practice",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}
